@@ -1,0 +1,131 @@
+body {font-family: 'Merriweather' serif;
+    margin-left: 15px; margin-right: 15px;}
+
+#container {display: flex; justify-content: space-between; 
+    margin-top: 1px;}
+
+h1, h3, h4 {color: red; letter-spacing: 2px;}
+
+#list {margin-top: 15px;}
+
+
+img.shopping {width: 20px; height: 20px;}
+
+.navigation li {display: inline-block; width: 3em;}
+
+.section1 {padding-top: 15px; 
+    padding-bottom: 15px; 
+    text-align: center; 
+    padding-left: 25px; 
+    padding-right: 25px; }
+
+#info {display: flex; 
+    justify-content: space-between; 
+    margin-top: 10px; padding-bottom: 80px;}
+
+.class1 {width: 50%;}
+
+.class2 {width: 40%; 
+    border: 1px solid rgb(168, 160, 159); 
+    border-radius: 3px;
+    padding-left: 15px; 
+    padding-right: 15px; 
+    padding-bottom: 25px; 
+    padding-top: 5px; 
+    background-color: white}
+
+h6      {margin-bottom: 8px;}
+
+input   {width: 100%; 
+    padding-top: 8px; 
+    padding-bottom: 8px; 
+    border: none;
+    border-bottom: 1px solid red} 
+
+.summary {display: flex; 
+    justify-content: space-between;}
+
+.summary1 {display: flex; 
+    justify-content: space-between;}
+
+img     {width: 60px; 
+    height: 60px; 
+    margin-top: 15px; 
+    margin-right: 1px;} 
+
+.image  {flex: 10%;}
+
+.item   {flex: 70%; 
+    margin-left: 5px;}
+
+.price  {flex:20%; 
+    text-align: end;}
+
+.checkout {display: flex; 
+    justify-content: space-between;}
+
+.checkout1 {display: flex; 
+    justify-content: space-between; 
+    border: 2px solid black;}
+
+.finalcheckout {margin-top: 2px;}
+
+.finalcheckout1 {padding: 0px 15px 0px 15px;}
+
+.finalorder {background-color: black; 
+    color: white;
+    padding-top: 5px; 
+    margin-top: 15px ; 
+    padding-bottom: 5px; 
+    text-align: center;}
+
+
+    #footer1 {display: flex; 
+        justify-content: space-around; 
+        background-color: rgb(57, 58, 59); 
+        color: white;}
+
+        .foot1>p {font-size: small;}
+        .foot2>p {font-size: small;}
+        .foot3>p {font-size: small;}
+
+
+@media screen and  (max-width:500px) {
+
+    #container {display:block; }
+
+    h1 {text-align: center; color: red;}
+
+    ul {margin-left: 40px; margin-bottom: 1px; padding-bottom: 1px;}
+    
+    .navigation li {display: inline-block; width: 4em;}
+
+    img.shopping {display: none;}
+
+    .section1 {margin-top: 1px; padding-top: 1px;}
+        
+        #info {flex-direction: column;}
+
+        .class1 {width: 90%; 
+                margin-left: 10px; 
+                margin-bottom: 20px;
+                margin-top: 5px;}
+
+        .class2 {width: 85%; 
+                margin-left: 10px; 
+                margin-right: 10px; }
+
+     #footer1 {flex-direction: column;}
+
+        h5 {word-spacing: 3px;}
+        .foot1 {text-align: center;}
+
+        .foot2 {text-align: center;}
+
+        .foot3 {text-align: center;}
+
+        .foot1>p {font-size: small;}
+        .foot2>p {font-size: small;}
+        .foot3>p {font-size: small;}
+        
+}
