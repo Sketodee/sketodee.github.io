@@ -90,7 +90,7 @@ img     {width: 60px;
         .foot3>p {font-size: small;}
 
 
-@media screen and  (max-width:500px) {
+@media screen and  (max-width:600px) {
 
     #container {display:block; }
 
